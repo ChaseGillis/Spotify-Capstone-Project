@@ -11,8 +11,8 @@ from sklearn.metrics import r2_score, accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.cluster import KMeans
 
-# Set random seed (N14252303)
-np.random.seed(14252303)
+# Set random seed
+np.random.seed(##########)
 
 # Load data
 data = pd.read_csv("Spotify 52k Data.csv")
